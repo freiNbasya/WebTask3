@@ -1,0 +1,103 @@
+body {
+    font-family: Calibri;
+}
+
+#div-header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+#icon{
+    position: absolute;
+}
+select {
+    position: absolute;
+   margin-left: 200px;
+   margin-top: 2px;
+    border: 2px solid #484a4b   ;
+    border-radius: 50%;
+
+}
+#cool-button {
+    position: absolute;
+   margin-left: 300px;
+   margin-top: 2px;
+    border: 2px solid #007bff   ;
+    border-radius: 50%;
+
+}
+.tab {
+    display: inline;
+    padding: 7px;
+}
+.tab:hover {
+    outline: 2px solid #007bff;
+    outline-offset: 5px;
+    border-radius: 50%;
+}
+#tab3 {
+    color: rgb(0, 164, 252); 
+}
+main{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #c300ff   ;
+    border-bottom: 1px solid #c300ff   ;
+}
+#rectangle{
+    display: flex;
+    width: 1460px;
+    height: 924px;
+    margin-left: 20px;
+    background-color: #3498db;
+    border-radius: 20px;
+}
+#title{
+    color: white;
+    
+    font-size: 50px;
+}
+#Jax{
+    color: white;
+        
+}
+#text{
+    padding: 200px;
+    padding-right: 100px
+}
+#Dorothy{
+    height: 50%;
+    width: 50%;
+    padding-top: 200px;
+    padding-right: 50px;
+}
+#footer-title{
+    font-size: 50px;
+
+}
+#aaa{
+    padding: 50px;
+}
+#form{
+    padding: 50px;
+    padding-left: 500px;
+}
+.form-button{
+    border: 2px solid #007bff   ;
+    border-radius: 50%;   
+}
+.form-button:focus{
+    background-color: #007bff;
+    color: white;
+}
+.form-input:focus{
+    background-color: #007bff;
+    color: white;
+}
+#Submit{
+    border: 2px solid #ffffff   ;
+    border-radius: 50%;   
+    background-color: #007bff;
+}
