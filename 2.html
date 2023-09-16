@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/tables1.css">  
+    <link rel="stylesheet" id="styles-id" href="">
+
+    <link rel="stylesheet" href=
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"/>
+    <title>Tables</title>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th><i id="icon1" class="fas fa-heart"></i></th>
+                <th><i id="icon2" class="fas fa-bell"></i></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>1</td>
+                <td>One</td>
+            </tr>
+            <tr class="even">
+                <td>2</td>
+                <td>Two</td>
+            </tr>
+            <tr class="odd">
+                <td>3</td>
+                <td>Three</td>
+            </tr>
+            <tr class="even">
+                <td>4</td>
+                <td>Four</td>
+            </tr>
+            <tr class="odd">
+                <td>5</td>
+                <td>Five</td>
+            </tr>
+            <tr class="even">
+                <td>6</td>
+                <td>Six</td>
+            </tr>
+            <tr class="odd">
+                <td>7</td>
+                <td>Seven</td>
+            </tr>
+            <tr class="even">
+                <td>8</td>
+                <td>Eight</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button style="display: inline;" onclick="updateStylesheetHref('styles/tables1.css')">Style1(default)</button>
+    <button style="display: inline;" onclick="updateStylesheetHref('styles/tables2.css')">Style2</button>
+    <button style="display: inline;" onclick="updateStylesheetHref('styles/tables3.css')">Style3</button>
+
+    <script>
+        function updateStylesheetHref(newHref) {
+            let stylesheet = document.getElementById("styles-id");
+            if (stylesheet) {
+                stylesheet.href = newHref;
+            } else {
+                console.error("Stylesheet not found!");
+            }
+        }
+    </script>
+</body>
+</html>
